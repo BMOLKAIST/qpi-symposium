@@ -29,6 +29,33 @@ def e(s):
     return html.escape(str(s), quote=True)
 
 
+# Hyphenated technical compounds that should never be split across lines. A
+# browser treats the hyphen as a break opportunity, so "three-dimensional" can
+# end a line as "three-" with "dimensional" orphaned below, which reads as a
+# forced break. Emitting a non-breaking hyphen says these are single words.
+#
+# This is not the same as hard-coding a break point with &nbsp; — we are not
+# choosing where lines break, only stating which strings are indivisible.
+TIGHT_COMPOUNDS = (
+    "three-dimensional",
+    "label-free",
+    "on-site",
+    "in-person",
+    "co-chair",
+    "real-time",
+    "high-throughput",
+)
+
+
+def protect_compounds(markup):
+    """Replace the hyphen in known compounds with &#8209; (non-breaking)."""
+    for word in TIGHT_COMPOUNDS:
+        markup = markup.replace(word, word.replace("-", "&#8209;"))
+        cap = word[0].upper() + word[1:]
+        markup = markup.replace(cap, cap.replace("-", "&#8209;"))
+    return markup
+
+
 def head(title, description, css_path, canonical):
     return f"""<!doctype html>
 <html lang="en">
@@ -268,9 +295,11 @@ def build_past(data):
 
 def main():
     data = json.loads(DATA.read_text(encoding="utf-8"))
-    (ROOT / "index.html").write_text(build_index(data), encoding="utf-8")
+    (ROOT / "index.html").write_text(protect_compounds(build_index(data)), encoding="utf-8")
     (ROOT / "past").mkdir(exist_ok=True)
-    (ROOT / "past" / "index.html").write_text(build_past(data), encoding="utf-8")
+    (ROOT / "past" / "index.html").write_text(
+        protect_compounds(build_past(data)), encoding="utf-8"
+    )
     print("wrote index.html")
     print("wrote past/index.html")
 

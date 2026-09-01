@@ -56,3 +56,9 @@ their initials, which is why there is no broken-image placeholder in the repo.
 - Never hard-code line breaks with `&nbsp;` or `<br>`. Headings use
   `text-wrap: balance` and paragraphs `text-wrap: pretty` — the right break
   depends on the viewport, which we cannot know when writing the markup.
+- Hyphenated technical compounds are the one exception, and only because a
+  hyphen is a break opportunity: "three-dimensional" can end a line as "three-".
+  `protect_compounds()` in `bin/build_site.py` emits a non-breaking hyphen for
+  the terms listed there. That states which strings are indivisible; it does not
+  choose where lines break. Add new compounds to that list rather than editing
+  the text.
