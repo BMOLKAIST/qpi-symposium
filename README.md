@@ -22,6 +22,19 @@ Commit both the JSON and the generated HTML.
 3. Refresh `bin/speakers-source.csv` from the vault register
 4. Re-run both scripts, preview, commit
 
+## Opening registration
+
+Create a **new** Google Form for each edition, owned by whoever handles registration
+that year, then set the URL in `bin/build_editions.py`:
+
+    "registration": {"url": "https://forms.gle/...", "fee": "Free", "note": ""}
+
+Re-run both scripts. The Register button appears automatically; while `url` is
+`None` the page says registration opens soon instead.
+
+Never point at a previous edition's form — responses land in that year's sheet and
+the form text names the wrong dates and venue.
+
 ## Conventions
 
 - English only.

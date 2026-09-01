@@ -28,7 +28,12 @@
         "what": "Excursion"
       }
     ],
-    "speakers_status": "to-be-announced"
+    "speakers_status": "to-be-announced",
+    "registration": {
+      "url": null,
+      "fee": "Free",
+      "note": "Registration opens in September."
+    }
   },
   "organizers": [
     {

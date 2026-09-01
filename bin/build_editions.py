@@ -95,6 +95,13 @@ CURRENT = {
         {"day": "Saturday 21 November", "what": "Excursion"},
     ],
     "speakers_status": "to-be-announced",
+    # Registration. Set "url" once the form exists; the button appears only then.
+    # Do not reuse a previous edition's form — responses would land in its sheet.
+    "registration": {
+        "url": None,
+        "fee": "Free",
+        "note": "Registration opens in September.",
+    },
 }
 
 ORGANIZERS = [

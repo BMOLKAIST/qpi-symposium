@@ -101,6 +101,21 @@ def build_index(data):
     past_count = len(data["past"])
     talk_count = sum(p["speaker_count"] for p in data["past"])
 
+    reg = cur.get("registration") or {}
+    if reg.get("url"):
+        reg_fact = e(reg.get("fee", "Free"))
+        reg_btn = f'<a class="btn" href="{e(reg["url"])}">Register</a>\n      '
+        reg_section = (
+            f'<p><a class="btn" href="{e(reg["url"])}">Register</a></p>'
+            f'<p style="margin-top:1rem">Attendance is {e(reg.get("fee", "free")).lower()}. '
+            "Poster submissions are made through the same form.</p>"
+        )
+    else:
+        reg_fact = f'{e(reg.get("fee", "Free"))} &middot; opens soon'
+        reg_btn = ""
+        reg_section = f'<p class="notice">{e(reg.get("note", "Registration will open here."))}</p>'
+
+
     return f"""{head(title, desc, "assets/css/style.css", "https://bmolkaist.github.io/qpi-symposium/")}
 {topbar("", "home")}
 
@@ -113,10 +128,10 @@ def build_index(data):
       <div><div class="k">Dates</div><div class="v">{e(cur['date_display'])}</div></div>
       <div><div class="k">Venue</div><div class="v">{e(cur['venue'])}</div></div>
       <div><div class="k">Format</div><div class="v">{e(cur['format'])}</div></div>
-      <div><div class="k">Registration</div><div class="v">Free</div></div>
+      <div><div class="k">Registration</div><div class="v">{reg_fact}</div></div>
     </div>
     <div class="btnrow">
-      <a class="btn ghost" href="past/">Past editions</a>
+      {reg_btn}<a class="btn ghost" href="past/">Past editions</a>
     </div>
   </div>
 </div>
@@ -143,6 +158,13 @@ def build_index(data):
   <div class="wrap">
     <h2>Invited speakers</h2>
     <p class="notice">The 2026 speaker list is being finalised and will be announced here. Across the {past_count} previous editions the symposium has hosted <strong>{talk_count} invited talks</strong> — see <a href="past/">past editions</a>.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Registration</h2>
+    {reg_section}
   </div>
 </section>
 
