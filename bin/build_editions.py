@@ -84,7 +84,11 @@ CURRENT = {
     "ordinal": 6,
     "label": "6th",
     "title": "The 6th Quantitative Phase Imaging Symposium",
-    "date_display": "19–21 November 2026",
+    # Public-facing dates cover the meeting proper. The Thursday reception is
+    # for chairs and invited speakers only, so advertising 19-21 would imply
+    # that general attendees need to arrive a day earlier than they do. The
+    # KAIST grant period is still 19-21 and covers the reception.
+    "date_display": "20–21 November 2026",
     "date_sort": "2026-11-20",
     "venue": "The Chinese University of Hong Kong",
     "location": "Hong Kong",
