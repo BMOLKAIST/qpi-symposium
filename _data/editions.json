@@ -1,0 +1,318 @@
+{
+  "series": {
+    "name": "Quantitative Phase Imaging Symposium",
+    "short": "QPI Symposium",
+    "since": 2020,
+    "about": "An annual gathering of the quantitative phase imaging community in Asia, bringing groups in the region together in person to share recent work in label-free, quantitative and three-dimensional imaging."
+  },
+  "current": {
+    "ordinal": 6,
+    "label": "6th",
+    "title": "The 6th Quantitative Phase Imaging Symposium",
+    "date_display": "19–21 November 2026",
+    "date_sort": "2026-11-20",
+    "venue": "The Chinese University of Hong Kong",
+    "location": "Hong Kong",
+    "format": "In person",
+    "schedule": [
+      {
+        "day": "Thursday 19 November",
+        "what": "Welcome reception (chairs and invited speakers)"
+      },
+      {
+        "day": "Friday 20 November",
+        "what": "Scientific programme, followed by dinner"
+      },
+      {
+        "day": "Saturday 21 November",
+        "what": "Excursion"
+      }
+    ],
+    "speakers_status": "to-be-announced"
+  },
+  "organizers": [
+    {
+      "name": "YongKeun (Paul) Park",
+      "affiliation": "KAIST",
+      "role": "Chair"
+    },
+    {
+      "name": "Seung Ah Lee",
+      "affiliation": "Seoul National University",
+      "role": "Co-chair"
+    },
+    {
+      "name": "Renjie Zhou",
+      "affiliation": "The Chinese University of Hong Kong",
+      "role": "Co-chair, local host"
+    },
+    {
+      "name": "Yongsoo Yang",
+      "affiliation": "KAIST",
+      "role": "Co-chair"
+    }
+  ],
+  "past": [
+    {
+      "ordinal": 5,
+      "label": "5th",
+      "title": "The 5th Quantitative Phase Imaging Symposium",
+      "date_display": "5 June 2025",
+      "date_sort": "2025-06-05",
+      "venue": "KAIST",
+      "location": "Daejeon, Korea",
+      "format": "Hybrid",
+      "note": "",
+      "speakers": [
+        {
+          "name": "Guoan Zheng",
+          "affiliation": "University of Connecticut",
+          "region": "USA"
+        },
+        {
+          "name": "Chao Zuo",
+          "affiliation": "Nanjing Univ. of Science and Technology",
+          "region": "China"
+        },
+        {
+          "name": "Duane Loh",
+          "affiliation": "National University of Singapore",
+          "region": "Singapore"
+        },
+        {
+          "name": "Changyong Song",
+          "affiliation": "POSTECH",
+          "region": "Korea"
+        },
+        {
+          "name": "Deok-ho Kim",
+          "affiliation": "Johns Hopkins University",
+          "region": "USA"
+        },
+        {
+          "name": "Rishikesh Pandey",
+          "affiliation": "Indian Institute of Technology Roorkee",
+          "region": "India"
+        },
+        {
+          "name": "Chaeuk Chung",
+          "affiliation": "Chungnam National University Hospital",
+          "region": "Korea"
+        }
+      ],
+      "speaker_count": 7
+    },
+    {
+      "ordinal": 4,
+      "label": "4th",
+      "title": "The 4th Quantitative Phase Imaging Symposium",
+      "date_display": "23 August 2024",
+      "date_sort": "2024-08-23",
+      "venue": "KAIST",
+      "location": "Daejeon, Korea",
+      "format": "Hybrid",
+      "note": "",
+      "speakers": [
+        {
+          "name": "Liangcai Cao",
+          "affiliation": "Tsinghua University",
+          "region": "China"
+        },
+        {
+          "name": "Renjie Zhou",
+          "affiliation": "CUHK",
+          "region": "Hong Kong"
+        },
+        {
+          "name": "Tong Ling",
+          "affiliation": "Nanyang Technological University",
+          "region": "Singapore"
+        },
+        {
+          "name": "Tae Hyun Hwang",
+          "affiliation": "Mayo Clinic",
+          "region": "USA"
+        },
+        {
+          "name": "Mooseok Jang",
+          "affiliation": "KAIST",
+          "region": "Korea"
+        },
+        {
+          "name": "Chulmin Joo",
+          "affiliation": "Yonsei University",
+          "region": "Korea"
+        }
+      ],
+      "speaker_count": 6
+    },
+    {
+      "ordinal": 3,
+      "label": "3rd",
+      "title": "The 3rd Quantitative Phase Imaging Symposium",
+      "date_display": "15 March 2023",
+      "date_sort": "2023-03-15",
+      "venue": "KAIST",
+      "location": "Daejeon, Korea",
+      "format": "Hybrid",
+      "note": "The first in-person edition. A poster session with selected short talks became a standing part of the programme.",
+      "speakers": [
+        {
+          "name": "Qionghai Dai",
+          "affiliation": "Tsinghua University",
+          "region": "China",
+          "keynote": true
+        },
+        {
+          "name": "Dong Soo Hwang",
+          "affiliation": "POSTECH",
+          "region": "Korea"
+        },
+        {
+          "name": "Yongdae Shin",
+          "affiliation": "Seoul National University",
+          "region": "Korea"
+        },
+        {
+          "name": "Kevin K. Tsia",
+          "affiliation": "University of Hong Kong",
+          "region": "Hong Kong"
+        },
+        {
+          "name": "Jinju Han",
+          "affiliation": "KAIST",
+          "region": "Korea"
+        },
+        {
+          "name": "Ki-Jun Yoon",
+          "affiliation": "KAIST",
+          "region": "Korea"
+        }
+      ],
+      "speaker_count": 6
+    },
+    {
+      "ordinal": 2,
+      "label": "2nd",
+      "title": "Quantitative Phase Imaging 2021 — From label-free imaging to biomedical applications",
+      "date_display": "22 December 2021",
+      "date_sort": "2021-12-22",
+      "venue": "Online",
+      "location": "Zoom",
+      "format": "Online only",
+      "note": "The edition at which the meeting was established as a recurring series and the joint organizing committee was formed.",
+      "speakers": [
+        {
+          "name": "Yibin Kang",
+          "affiliation": "Princeton University",
+          "region": "USA"
+        },
+        {
+          "name": "Peter So",
+          "affiliation": "MIT",
+          "region": "USA"
+        },
+        {
+          "name": "Steve Oh",
+          "affiliation": "Bioprocessing Technology Institute A*STAR",
+          "region": "Singapore"
+        },
+        {
+          "name": "YongKeun Park",
+          "affiliation": "KAIST",
+          "region": "Korea"
+        },
+        {
+          "name": "Hye-jin Kim",
+          "affiliation": "Tomocube",
+          "region": "Korea"
+        },
+        {
+          "name": "Seung Ah Lee",
+          "affiliation": "Yonsei University",
+          "region": "Korea"
+        },
+        {
+          "name": "Doory Kim",
+          "affiliation": "Hanyang University",
+          "region": "Korea"
+        },
+        {
+          "name": "Yunmin Jung",
+          "affiliation": "Institute for Basic Science",
+          "region": "Korea"
+        },
+        {
+          "name": "Ishan Barman",
+          "affiliation": "Johns Hopkins University",
+          "region": "USA"
+        }
+      ],
+      "speaker_count": 9
+    },
+    {
+      "ordinal": 1,
+      "label": "1st",
+      "title": "KAIST e-workshop on Quantitative Phase Imaging 2020",
+      "date_display": "23 December 2020",
+      "date_sort": "2020-12-23",
+      "venue": "Online",
+      "location": "Zoom",
+      "format": "Online only",
+      "note": "The first meeting, held online during the pandemic and hosted by KAIST alone.",
+      "speakers": [
+        {
+          "name": "Gabriel Popescu",
+          "affiliation": "UIUC",
+          "region": "USA"
+        },
+        {
+          "name": "Yang Liu",
+          "affiliation": "Univ. of Pittsburgh",
+          "region": "USA"
+        },
+        {
+          "name": "Renjie Zhou",
+          "affiliation": "CUHK",
+          "region": "Hong Kong"
+        },
+        {
+          "name": "Sumin Lee",
+          "affiliation": "Tomocube",
+          "region": "Korea"
+        },
+        {
+          "name": "Kyoohyun Kim",
+          "affiliation": "Max Planck Institute",
+          "region": "Germany"
+        },
+        {
+          "name": "Sangwoo Park",
+          "affiliation": "Korea University",
+          "region": "Korea"
+        },
+        {
+          "name": "Eri H. Hayakawa",
+          "affiliation": "Jichi Medical University",
+          "region": "Japan"
+        },
+        {
+          "name": "Min Jae Lee",
+          "affiliation": "Seoul National University",
+          "region": "Korea"
+        },
+        {
+          "name": "Richard W. Wong",
+          "affiliation": "Kanazawa University",
+          "region": "Japan"
+        },
+        {
+          "name": "Changi Pack",
+          "affiliation": "Asan Medical Center",
+          "region": "Korea"
+        }
+      ],
+      "speaker_count": 10
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+venue,edition,year,paper_no,speaker,affiliation,region,role,status,note
+Symposium,1,2020,,Gabriel Popescu,UIUC,USA,invited,presented,
+Symposium,1,2020,,Yang Liu,Univ. of Pittsburgh,USA,invited,presented,now UIUC; SPIE BO506 co-chair
+Symposium,1,2020,,Renjie Zhou,CUHK,Hong Kong,organizer,presented,
+Symposium,1,2020,,Sumin Lee,Tomocube,Korea,industry,presented,
+Symposium,1,2020,,Kyoohyun Kim,Max Planck Institute,Germany,invited,presented,
+Symposium,1,2020,,Sangwoo Park,Korea University,Korea,invited,presented,
+Symposium,1,2020,,Eri H. Hayakawa,Jichi Medical University,Japan,invited,presented,
+Symposium,1,2020,,Min Jae Lee,Seoul National University,Korea,invited,presented,
+Symposium,1,2020,,Richard W. Wong,Kanazawa University,Japan,invited,presented,
+Symposium,1,2020,,Changi Pack,Asan Medical Center,Korea,clinical,presented,
+Symposium,2,2021,,Yibin Kang,Princeton University,USA,invited,presented,
+Symposium,2,2021,,Peter So,MIT,USA,invited,presented,
+Symposium,2,2021,,Steve Oh,Bioprocessing Technology Institute A*STAR,Singapore,invited,presented,
+Symposium,2,2021,,YongKeun Park,KAIST,Korea,organizer,presented,
+Symposium,2,2021,,Hye-jin Kim,Tomocube,Korea,industry,presented,short talk
+Symposium,2,2021,,Seung Ah Lee,Yonsei University,Korea,organizer,presented,now SNU Mechanical Engineering
+Symposium,2,2021,,Doory Kim,Hanyang University,Korea,invited,presented,
+Symposium,2,2021,,Yunmin Jung,Institute for Basic Science,Korea,invited,presented,
+Symposium,2,2021,,Ishan Barman,Johns Hopkins University,USA,invited,presented,title listed as TBA on the page
+Symposium,3,2023,,Qionghai Dai,Tsinghua University,China,keynote,presented,only keynote-tagged talk in the series
+Symposium,3,2023,,Dong Soo Hwang,POSTECH,Korea,invited,presented,
+Symposium,3,2023,,Yongdae Shin,Seoul National University,Korea,invited,presented,
+Symposium,3,2023,,Kevin K. Tsia,University of Hong Kong,Hong Kong,invited,presented,
+Symposium,3,2023,,Jinju Han,KAIST,Korea,invited,presented,
+Symposium,3,2023,,Ki-Jun Yoon,KAIST,Korea,invited,presented,
+Symposium,4,2024,,Liangcai Cao,Tsinghua University,China,invited,presented,
+Symposium,4,2024,,Renjie Zhou,CUHK,Hong Kong,organizer,presented,only repeat speaker in the series
+Symposium,4,2024,,Tong Ling,Nanyang Technological University,Singapore,invited,presented,
+Symposium,4,2024,,Tae Hyun Hwang,Mayo Clinic,USA,clinical,presented,source spells as Taehyun Hwang
+Symposium,4,2024,,Mooseok Jang,KAIST,Korea,invited,presented,
+Symposium,4,2024,,Chulmin Joo,Yonsei University,Korea,invited,presented,
+Symposium,5,2025,,Guoan Zheng,University of Connecticut,USA,invited,presented,
+Symposium,5,2025,,Chao Zuo,Nanjing Univ. of Science and Technology,China,invited,presented,
+Symposium,5,2025,,Duane Loh,National University of Singapore,Singapore,invited,presented,
+Symposium,5,2025,,Changyong Song,POSTECH,Korea,invited,presented,
+Symposium,5,2025,,Deok-ho Kim,Johns Hopkins University,USA,invited,presented,
+Symposium,5,2025,,Rishikesh Pandey,Indian Institute of Technology Roorkee,India,invited,presented,first Indian participation
+Symposium,5,2025,,Chaeuk Chung,Chungnam National University Hospital,Korea,clinical,presented,
+SPIE,X,2024,7,Yongsoo Yang,KAIST,Korea,invited,presented,session Method
+SPIE,X,2024,9,Xumin Ding,Harbin Institute of Technology,China,invited,presented,session Method
+SPIE,X,2024,10,Changhuei Yang,Caltech,USA,invited,presented,session Method
+SPIE,X,2024,12,Laura Waller,UC Berkeley,USA,invited,presented,session Method
+SPIE,X,2024,17,Yongdae Shin,Seoul National University,Korea,invited,presented,session Application
+SPIE,X,2024,18,Guoan Zheng,University of Connecticut,USA,invited,presented,session Method
+SPIE,X,2024,21,Aydogan Ozcan,UCLA,USA,invited,presented,session Algorithm/AI
+SPIE,X,2024,25,KyeoReh Lee,KAIST,Korea,invited,presented,session Method
+SPIE,X,2024,36,Guillaume Baffou,Institut Fresnel,France,invited,presented,session Application
+SPIE,X,2024,62,Jaime Ortega Arroyo,ETH Zurich,Switzerland,invited,presented,session Application
+SPIE,X,2024,71,Dushan Wadduwage,Harvard University,USA,invited,presented,session Algorithm/AI
+SPIE,X,2024,73,Rob Judson-Torres,Utah / Huntsman Cancer Institute,USA,invited,presented,session Application
+SPIE,X,2024,74,Somin Eunice Lee,University of Michigan,USA,invited,presented,session Method
+SPIE,X,2024,76,Marco Genovese,INRiM,Italy,invited,presented,session Method
+SPIE,X,2024,81,Ishan Barman,Johns Hopkins University,USA,invited,delegated,student Piyush Raj presented for health reasons
+SPIE,X,2024,99,Francisco Robles,Georgia Tech,USA,invited,presented,session Algorithm/AI
+SPIE,X,2024,100,Juergen Czarske,TU Dresden,Germany,invited,presented,session Application
+SPIE,X,2024,105,Qing Yang,Zhejiang University,China,invited,unclear,in programme but correspondence records an abstract dropout - needs check
+SPIE,X,2024,107,Daniele Faccio,University of Glasgow,UK,invited,unclear,programme entry; first author Ashley Lyons who then could not present - needs check
+SPIE,XI,2025,12,David Nolte,Purdue University,USA,invited,presented,
+SPIE,XI,2025,22,Nicholas Durr,Johns Hopkins University,USA,invited,presented,
+SPIE,XI,2025,28,Roarke Horstmeyer,Duke University,USA,invited,presented,
+SPIE,XI,2025,43,Demetri Psaltis,EPFL,Switzerland,invited,presented,
+SPIE,XI,2025,47,Alexandre Aubry,Institut Langevin,France,invited,presented,abstract first author Balondrade
+SPIE,XI,2025,58,Pierre Marquet,Universite Laval / Lausanne,Canada,invited,presented,
+SPIE,XI,2025,61,Amy Lynn Oldenburg,UNC Chapel Hill,USA,invited,presented,
+SPIE,XI,2025,68,Pierre Bon,CNRS,France,invited,presented,
+SPIE,XI,2025,73,Pasquale Memmolo,CNR-ISASI,Italy,invited,presented,
+SPIE,XI,2025,74,Maciej Trusiak,Warsaw University of Technology,Poland,invited,presented,
+SPIE,XI,2025,75,Tae Hyun Hwang,Mayo Clinic,USA,invited,presented,same person as Symposium 2024 Taehyun Hwang
+SPIE,XI,2025,97,Randy Bartels,Morgridge Institute for Research,USA,invited,presented,
+SPIE,XI,2025,100,Shalin Mehta,Chan Zuckerberg Biohub,USA,invited,presented,title not recorded
+SPIE,XII,2026,13,Tong Ling,Nanyang Technological University,Singapore,invited,presented,
+SPIE,XII,2026,16,Kyoohyun Kim,Max Planck Zentrum fur Physik und Medizin,Germany,invited,presented,
+SPIE,XII,2026,30,Azeem Ahmad,UiT The Arctic University of Norway,Norway,invited,presented,
+SPIE,XII,2026,33,YoonSeok Baek,Laboratoire Kastler Brossel,France,invited,presented,
+SPIE,XII,2026,35,Juhyeok Lee,Lawrence Berkeley National Laboratory,USA,invited,presented,
+SPIE,XII,2026,36,Kevin Zhou,University of Michigan,USA,invited,presented,
+SPIE,XII,2026,39,Pietro Ferraro,CNR-ISASI,Italy,invited,presented,
+SPIE,XII,2026,46,Jay Nadeau,Portland State University,USA,invited,presented,abstract first author Johnston
+SPIE,XII,2026,52,Douglas Shepherd,Arizona State University,USA,invited,presented,abstract first author Brown
+SPIE,XII,2026,54,Dora Mahecic,Harvard Medical School,USA,invited,presented,
+SPIE,XII,2026,60,Yi Xue,UC Davis,USA,invited,presented,
+SPIE,XII,2026,72,Dag Kristian Dysthe,University of Oslo,Norway,invited,presented,
+SPIE,XII,2026,76,Yang Liu,UIUC,USA,organizer,presented,conference co-chair
+SPIE,XII,2026,80,Kevin K. Tsia,University of Hong Kong,Hong Kong,invited,presented,source spells as Kevin Tsia
+SPIE,XII,2026,81,Alon Gorodetsky,UC Irvine,USA,invited,withdrawn,in printed programme but withdrew days before; family reasons and schedule conflict
+SPIE,XII,2026,82,Mark Anastasio,University of Illinois,USA,invited,presented,
+SPIE,XII,2026,83,Anat Levin,Technion,Israel,invited,presented,
+SPIE,XIII,2027,,Dan Fu,University of Washington,USA,invited,accepted,recommended by Bjorn Kemper; abstract submitted
+SPIE,XIII,2027,,Alon Gorodetsky,UC Irvine,USA,invited,accepted,recommended by YongKeun Park; abstract outstanding; source spells as Alon A. Gorodetsky
+SPIE,XIII,2027,,Seung Ah Lee,Seoul National University,Korea,invited,accepted,recommended by YongKeun Park; also Symposium organizer
+SPIE,XIII,2027,,Florian Willomitzer,University of Arizona,USA,invited,accepted,recommended by Shwetadwip Chowdhury
+SPIE,XIII,2027,,Fei Xia,UC Irvine,USA,invited,accepted,recommended by Aydogan Ozcan
+SPIE,XIII,2027,,Shwetadwip Chowdhury,UT Austin,USA,invited,accepted,recommended by Aydogan Ozcan; also programme committee
+SPIE,XIII,2027,,Sixian You,MIT EECS,USA,invited,accepted,recommended by George Barbastathis; abstract outstanding
+SPIE,XIII,2027,,Iksung Kang,KAIST,Korea,invited,accepted,recommended by George Barbastathis
+SPIE,XIII,2027,,Tom Zangle,University of Utah,USA,invited,accepted,recommended by Bjorn Kemper
+SPIE,XIII,2027,,Gun-Yeal Lee,Stanford / KAIST,USA,invited,accepted,
+SPIE,XIII,2027,,Baptiste Blochet,Universite Paris Cite,France,invited,accepted,
+SPIE,XIII,2027,,Deepan Balakrishnan,,unknown,invited,accepted,affiliation missing in source sheet - needs check
+SPIE,XIII,2027,,Jinlong Zhu,Huazhong University of Science and Technology,China,invited,accepted,source sheet misspells as Jinlong Zhou; recommended by Renjie Zhou; PW27B-BO506-84
+SPIE,XII,2026,,Dan Fu,University of Washington,USA,invited,declined,deferred himself - work at an early stage; accepted for 2027
+SPIE,XII,2026,,Duane Loh,National University of Singapore,Singapore,invited,declined,teaching load; maybe the next iteration; source spells as N. Duane Loh
+SPIE,XII,2026,,Chiara Paviolo,CEA-Leti,France,invited,declined,not attending PW in person that year
+SPIE,XII,2026,,Colin Ophus,Stanford,USA,invited,declined,no reason given; second consecutive decline
+SPIE,XI,2025,,Philipp Kukura,University of Oxford,UK,invited,declined,travel load; proposed postdoc Christoph Thiele who was also unavailable
+SPIE,XI,2025,,Chao Zuo,Nanjing Univ. of Science and Technology,China,invited,declined,US visa constraints; interested otherwise
+SPIE,XI,2025,,James Fienup,University of Rochester,USA,invited,declined,does not usually attend PW
+SPIE,XI,2025,,Colin Ophus,Lawrence Berkeley National Laboratory,USA,invited,declined,relocation; travel budget uncertain
+SPIE,X,2024,,Ashley Lyons,University of Glasgow,UK,invited,lapsed,accepted then family emergency; remote presentation not permitted
