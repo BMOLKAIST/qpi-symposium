@@ -57,6 +57,14 @@ h3 {
   line-height: 1.15;
   letter-spacing: -0.01em;
   margin: 0;
+  /* Let the browser choose the break points and even out the lines. Never
+     hard-code them with &nbsp; or <br> — the right break depends on the
+     viewport, which we do not know. */
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
 }
 
 .wrap {
@@ -259,6 +267,27 @@ section p strong {
   padding: 1.4rem;
 }
 
+.face {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 1rem;
+  filter: grayscale(0.15);
+}
+
+.face.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-hover);
+  color: var(--text-faint);
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  letter-spacing: 0.05em;
+}
+
 .person .n {
   font-family: var(--serif);
   font-size: 1.2rem;
@@ -402,4 +431,82 @@ footer p {
     grid-template-columns: 1fr;
     gap: 0.3rem;
   }
+}
+
+/* ---------- imagery ----------
+   Photographs sit on a black canvas, so each one is wrapped in a figure that
+   fades its edges into the background rather than ending on a hard line.
+   Credits are required for the CC BY-SA images and are part of the markup. */
+
+.shot {
+  margin: 2rem 0 0;
+  position: relative;
+}
+
+.shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+.shot::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: 2px;
+  box-shadow: inset 0 0 60px 12px rgba(10, 10, 10, 0.55);
+}
+
+.shot figcaption {
+  margin-top: 0.6rem;
+  font-size: 0.76rem;
+  color: var(--text-faint);
+  letter-spacing: 0.02em;
+}
+
+.shot figcaption a {
+  color: var(--text-faint);
+  border-bottom-color: rgba(154, 154, 154, 0.3);
+}
+
+.shot figcaption a:hover {
+  color: var(--text-dim);
+}
+
+/* Full-bleed band under the hero */
+.band {
+  position: relative;
+  line-height: 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.band img {
+  width: 100%;
+  height: clamp(180px, 26vw, 340px);
+  object-fit: cover;
+  display: block;
+}
+
+.band::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    rgba(10, 10, 10, 0.75) 0%,
+    rgba(10, 10, 10, 0.15) 45%,
+    rgba(10, 10, 10, 0.6) 100%
+  );
+}
+
+.band .credit {
+  position: absolute;
+  right: var(--pad);
+  bottom: 0.5rem;
+  font-size: 0.7rem;
+  line-height: 1.4;
+  color: rgba(237, 237, 237, 0.45);
 }

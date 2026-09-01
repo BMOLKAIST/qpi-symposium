@@ -35,7 +35,24 @@ Re-run both scripts. The Register button appears automatically; while `url` is
 Never point at a previous edition's form — responses land in that year's sheet and
 the form text names the wrong dates and venue.
 
+## Images
+
+Web copies live in `assets/img/`. Originals and the untouched downloads are kept
+outside the repo; the versions here are cropped to the band ratio and toned down
+(saturation and brightness reduced, contrast curve applied) so they sit on the
+black canvas instead of punching a bright hole in it.
+
+Credits are required for the CC BY-SA photographs and are written into the
+figure captions. Do not remove them.
+
+Organizer portraits go in `assets/img/people/`. Ask each person for a photo —
+never take one from a department page. Until someone sends one their card shows
+their initials, which is why there is no broken-image placeholder in the repo.
+
 ## Conventions
 
 - English only.
 - Do not publish invited speakers before they have accepted.
+- Never hard-code line breaks with `&nbsp;` or `<br>`. Headings use
+  `text-wrap: balance` and paragraphs `text-wrap: pretty` — the right break
+  depends on the viewport, which we cannot know when writing the markup.

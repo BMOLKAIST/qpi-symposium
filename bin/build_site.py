@@ -91,12 +91,22 @@ def build_index(data):
         for s in cur["schedule"]
     )
 
-    people = "\n".join(
-        f"""      <div class="person"><div class="n">{e(o['name'])}</div>"""
-        f"""<div class="a">{e(o['affiliation'])}</div>"""
-        f"""<div class="r">{e(o['role'])}</div></div>"""
-        for o in data["organizers"]
-    )
+    def person_card(o):
+        photo = o.get("photo")
+        if photo:
+            face = f'<img class="face" src="assets/img/people/{e(photo)}" alt="{e(o["name"])}" loading="lazy" width="640" height="640">'
+        else:
+            # No portrait yet. Show initials rather than a broken image.
+            initials = "".join(w[0] for w in o["name"].replace("(", "").replace(")", "").split()[:2]).upper()
+            face = f'<div class="face placeholder" aria-hidden="true">{e(initials)}</div>'
+        return (
+            f'      <div class="person">{face}'
+            f'<div class="n">{e(o["name"])}</div>'
+            f'<div class="a">{e(o["affiliation"])}</div>'
+            f'<div class="r">{e(o["role"])}</div></div>'
+        )
+
+    people = "\n".join(person_card(o) for o in data["organizers"])
 
     past_count = len(data["past"])
     talk_count = sum(p["speaker_count"] for p in data["past"])
@@ -122,7 +132,7 @@ def build_index(data):
 <div class="hero">
   <div class="wrap">
     <p class="eyebrow">{e(cur['label'])} Symposium &middot; {e(cur['location'])}</p>
-    <h1>Quantitative Phase&nbsp;Imaging Symposium&nbsp;2026</h1>
+    <h1>Quantitative Phase Imaging Symposium 2026</h1>
     <p class="lede">{e(series['about'])}</p>
     <div class="facts">
       <div><div class="k">Dates</div><div class="v">{e(cur['date_display'])}</div></div>
@@ -135,6 +145,10 @@ def build_index(data):
     </div>
   </div>
 </div>
+
+<figure class="band">
+  <img src="assets/img/lake.jpg" alt="Lake Ad Excellentiam on the CUHK campus" width="2000" height="700">
+</figure>
 
 <section>
   <div class="wrap">
@@ -172,7 +186,16 @@ def build_index(data):
   <div class="wrap">
     <h2>Venue and travel</h2>
     <p>The meeting is held at <strong>{e(cur['venue'])}</strong>. Most international visitors do not require a visa to enter Hong Kong, which makes this an unusually easy meeting to reach for colleagues across the region. Information on accommodation will be posted here.</p>
-    <p style="margin-top:1.25rem">The symposium is <strong>in person only</strong> — there is no online attendance. Bringing the community into one room for a day is the point of the meeting, and remote participation has not served that well in the past.</p>
+    <figure class="shot">
+      <img src="assets/img/campus.jpg" alt="The CUHK campus on its hillside above Sha Tin" width="2000" height="800" loading="lazy">
+      <figcaption>The CUHK campus. Photo: Citobun, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></figcaption>
+    </figure>
+    <p style="margin-top:1.75rem">Saturday is given over to an excursion, so there is time to see the city as well as the meeting.</p>
+    <figure class="shot">
+      <img src="assets/img/harbour.jpg" alt="Victoria Harbour at night" width="2000" height="800" loading="lazy">
+      <figcaption>Victoria Harbour. Photo: Benh Lieu Song, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></figcaption>
+    </figure>
+    <p style="margin-top:1.75rem">The symposium is <strong>in person only</strong> — there is no online attendance. Bringing the community into one room for a day is the point of the meeting, and remote participation has not served that well in the past.</p>
   </div>
 </section>
 

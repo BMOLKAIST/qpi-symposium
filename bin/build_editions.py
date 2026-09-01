@@ -104,11 +104,18 @@ CURRENT = {
     },
 }
 
+# "photo" is a filename under assets/img/people/, or None until the person has
+# sent one. Never take a portrait from a department page — it is someone else's
+# copyright and their likeness, and they should pick which photo of them goes up.
 ORGANIZERS = [
-    {"name": "YongKeun (Paul) Park", "affiliation": "KAIST", "role": "Chair"},
-    {"name": "Seung Ah Lee", "affiliation": "Seoul National University", "role": "Co-chair"},
-    {"name": "Renjie Zhou", "affiliation": "The Chinese University of Hong Kong", "role": "Co-chair, local host"},
-    {"name": "Yongsoo Yang", "affiliation": "KAIST", "role": "Co-chair"},
+    {"name": "YongKeun (Paul) Park", "affiliation": "KAIST", "role": "Chair",
+     "photo": "yongkeun-park.jpg"},
+    {"name": "Seung Ah Lee", "affiliation": "Seoul National University", "role": "Co-chair",
+     "photo": None},
+    {"name": "Renjie Zhou", "affiliation": "The Chinese University of Hong Kong", "role": "Co-chair, local host",
+     "photo": None},
+    {"name": "Yongsoo Yang", "affiliation": "KAIST", "role": "Co-chair",
+     "photo": None},
 ]
 
 # Roles that should not be shown as an invited talk on the public archive.

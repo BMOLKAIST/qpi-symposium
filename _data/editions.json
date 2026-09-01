@@ -39,22 +39,26 @@
     {
       "name": "YongKeun (Paul) Park",
       "affiliation": "KAIST",
-      "role": "Chair"
+      "role": "Chair",
+      "photo": "yongkeun-park.jpg"
     },
     {
       "name": "Seung Ah Lee",
       "affiliation": "Seoul National University",
-      "role": "Co-chair"
+      "role": "Co-chair",
+      "photo": null
     },
     {
       "name": "Renjie Zhou",
       "affiliation": "The Chinese University of Hong Kong",
-      "role": "Co-chair, local host"
+      "role": "Co-chair, local host",
+      "photo": null
     },
     {
       "name": "Yongsoo Yang",
       "affiliation": "KAIST",
-      "role": "Co-chair"
+      "role": "Co-chair",
+      "photo": null
     }
   ],
   "past": [
