@@ -159,7 +159,7 @@ def build_index(data):
 <div class="hero">
   <div class="wrap">
     <p class="eyebrow">{e(cur['label'])} Symposium &middot; {e(cur['location'])}</p>
-    <h1>Quantitative Phase Imaging Symposium 2026</h1>
+    <h1>Quantitative Phase Imaging<br>Symposium 2026</h1>
     <p class="lede">{e(series['about'])}</p>
     <div class="facts">
       <div><div class="k">Dates</div><div class="v">{e(cur['date_display'])}</div></div>

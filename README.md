@@ -53,7 +53,7 @@ their initials, which is why there is no broken-image placeholder in the repo.
 
 - English only.
 - Do not publish invited speakers before they have accepted.
-- Never hard-code line breaks with `&nbsp;` or `<br>`. Headings use
+- Do not hard-code line breaks with `&nbsp;` or `<br>`. Headings use
   `text-wrap: balance` and paragraphs `text-wrap: pretty` — the right break
   depends on the viewport, which we cannot know when writing the markup.
 - Hyphenated technical compounds are the one exception, and only because a

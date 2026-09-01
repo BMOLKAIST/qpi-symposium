@@ -57,9 +57,11 @@ h3 {
   line-height: 1.15;
   letter-spacing: -0.01em;
   margin: 0;
-  /* Let the browser choose the break points and even out the lines. Never
-     hard-code them with &nbsp; or <br> — the right break depends on the
-     viewport, which we do not know. */
+  /* Let the browser choose the break points and even out the lines. Do not
+     hard-code them with &nbsp; or <br> — the right break usually depends on the
+     viewport, which we do not know. The one exception is the h1, where the
+     break is placed by hand so that "Quantitative Phase Imaging" stays whole;
+     that is a decision about the name, not about the layout. */
   text-wrap: balance;
 }
 
@@ -135,6 +137,10 @@ p {
 .hero h1 {
   font-size: clamp(2.4rem, 6.5vw, 4.25rem);
   margin-bottom: 1.25rem;
+  /* The break is written into the markup, so balancing would fight it. On a
+     narrow screen the first line still wraps on its own — <br> adds a break,
+     it does not forbid others. */
+  text-wrap: initial;
 }
 
 .hero .lede {
