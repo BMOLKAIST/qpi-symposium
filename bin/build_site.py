@@ -172,6 +172,7 @@ def build_index(data):
   <div class="wrap">
     <h2>Venue and travel</h2>
     <p>The meeting is held at <strong>{e(cur['venue'])}</strong>. Most international visitors do not require a visa to enter Hong Kong, which makes this an unusually easy meeting to reach for colleagues across the region. Information on accommodation will be posted here.</p>
+    <p style="margin-top:1.25rem">The symposium is <strong>in person only</strong> — there is no online attendance. Bringing the community into one room for a day is the point of the meeting, and remote participation has not served that well in the past.</p>
   </div>
 </section>
 
