@@ -30,9 +30,9 @@
     ],
     "speakers_status": "to-be-announced",
     "registration": {
-      "url": null,
+      "url": "https://forms.gle/XYUY5wwuBPstPwc39",
       "fee": "Free",
-      "note": "Registration opens in September."
+      "note": "Includes poster-abstract submission. Poster abstract deadline: 30 October 2026, 23:59 HKT."
     }
   },
   "organizers": [
@@ -46,7 +46,7 @@
       "name": "Seung Ah Lee",
       "affiliation": "Seoul National University",
       "role": "Co-chair",
-      "photo": null
+      "photo": "seung-ah-lee.jpg"
     },
     {
       "name": "Renjie Zhou",
@@ -58,7 +58,7 @@
       "name": "Yongsoo Yang",
       "affiliation": "KAIST",
       "role": "Co-chair",
-      "photo": null
+      "photo": "yongsoo-yang.jpg"
     }
   ],
   "past": [

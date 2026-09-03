@@ -102,9 +102,9 @@ CURRENT = {
     # Registration. Set "url" once the form exists; the button appears only then.
     # Do not reuse a previous edition's form — responses would land in its sheet.
     "registration": {
-        "url": None,
+        "url": "https://forms.gle/XYUY5wwuBPstPwc39",
         "fee": "Free",
-        "note": "Registration opens in September.",
+        "note": "Includes poster-abstract submission. Poster abstract deadline: 30 October 2026, 23:59 HKT.",
     },
 }
 
@@ -115,11 +115,11 @@ ORGANIZERS = [
     {"name": "YongKeun (Paul) Park", "affiliation": "KAIST", "role": "Chair",
      "photo": "yongkeun-park.jpg"},
     {"name": "Seung Ah Lee", "affiliation": "Seoul National University", "role": "Co-chair",
-     "photo": None},
+     "photo": "seung-ah-lee.jpg"},
     {"name": "Renjie Zhou", "affiliation": "The Chinese University of Hong Kong", "role": "Co-chair, local host",
      "photo": None},
     {"name": "Yongsoo Yang", "affiliation": "KAIST", "role": "Co-chair",
-     "photo": None},
+     "photo": "yongsoo-yang.jpg"},
 ]
 
 # Roles that should not be shown as an invited talk on the public archive.
