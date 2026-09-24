@@ -173,7 +173,7 @@ def build_index(data):
         reg_section = f'<p class="notice">{e(reg.get("note", "Registration will open here."))}</p>'
 
 
-    return f"""{head(title, desc, "assets/css/style.css?v=20260924-speakers", "https://bmolkaist.github.io/qpi-symposium/")}
+    return f"""{head(title, desc, "assets/css/style.css?v=20260924-poster-fit", "https://bmolkaist.github.io/qpi-symposium/")}
 {topbar("", "home")}
 
 <div class="hero">
