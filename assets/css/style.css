@@ -495,6 +495,18 @@ footer p {
   display: block;
 }
 
+/* The event poster is square and contains text; preserve its full dimensions. */
+.poster-band {
+  background: var(--bg);
+}
+
+.poster-band img {
+  width: min(100%, 760px);
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
 .band::after {
   content: "";
   position: absolute;
@@ -506,6 +518,10 @@ footer p {
     rgba(10, 10, 10, 0.15) 45%,
     rgba(10, 10, 10, 0.6) 100%
   );
+}
+
+.poster-band::after {
+  display: none;
 }
 
 .band .credit {
