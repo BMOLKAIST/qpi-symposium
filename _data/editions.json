@@ -64,7 +64,8 @@
         "name": "Yongsoo Yang",
         "affiliation": "KAIST",
         "role": "Invited speaker",
-        "photo": "yongsoo-yang.jpg"
+        "photo": "yongsoo-yang.jpg",
+        "photo_source": "https://pure.kaist.ac.kr/en/persons/yongsoo-yang/"
       }
     ],
     "program_committee": [
@@ -89,13 +90,15 @@
       "name": "YongKeun (Paul) Park",
       "affiliation": "KAIST",
       "role": "Chair",
-      "photo": "yongkeun-park.jpg"
+      "photo": "yongkeun-park.jpg",
+      "photo_source": "https://pure.kaist.ac.kr/en/persons/yongkeun-park/"
     },
     {
       "name": "Seung Ah Lee",
       "affiliation": "Seoul National University",
       "role": "Co-chair",
-      "photo": "seung-ah-lee.jpg"
+      "photo": "seung-ah-lee.jpg",
+      "photo_source": "https://imaging.snu.ac.kr/team"
     },
     {
       "name": "Renjie Zhou",
@@ -109,7 +112,8 @@
       "name": "Yongsoo Yang",
       "affiliation": "KAIST",
       "role": "Co-chair",
-      "photo": "yongsoo-yang.jpg"
+      "photo": "yongsoo-yang.jpg",
+      "photo_source": "https://pure.kaist.ac.kr/en/persons/yongsoo-yang/"
     }
   ],
   "past": [

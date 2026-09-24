@@ -105,7 +105,7 @@ CURRENT = {
         {"name": "Yuan Luo", "affiliation": "National Taiwan University", "role": "Invited speaker", "photo": "yuan-luo.jpg", "photo_source": "https://phrtacp.ntu.edu.tw/about/8.htm"},
         {"name": "Kevin Tsia", "affiliation": "The University of Hong Kong", "role": "Invited speaker", "photo": "kevin-tsia.jpg", "photo_position": "center top", "photo_source": "https://ece.hku.hk/people/tsia/"},
         {"name": "Kenneth K. Y. Wong", "affiliation": "The University of Hong Kong", "role": "Invited speaker", "photo": "kenneth-wong.png", "photo_source": "https://www.lsr.hku.hk/member/kenneth-k-y-wong-professor-department-of-electrical-electronic-engineering/"},
-        {"name": "Yongsoo Yang", "affiliation": "KAIST", "role": "Invited speaker", "photo": "yongsoo-yang.jpg"},
+        {"name": "Yongsoo Yang", "affiliation": "KAIST", "role": "Invited speaker", "photo": "yongsoo-yang.jpg", "photo_source": "https://pure.kaist.ac.kr/en/persons/yongsoo-yang/"},
     ],
     "program_committee": [
         {"name": "Qihang Zhang", "affiliation": "The Chinese University of Hong Kong", "role": "Program committee", "photo": "qihang-zhang.jpg", "photo_source": "https://qhzhang95.github.io/"},
@@ -127,13 +127,13 @@ CURRENT = {
 # with speaker-supplied versions when available. See portrait-sources.csv.
 ORGANIZERS = [
     {"name": "YongKeun (Paul) Park", "affiliation": "KAIST", "role": "Chair",
-     "photo": "yongkeun-park.jpg"},
+     "photo": "yongkeun-park.jpg", "photo_source": "https://pure.kaist.ac.kr/en/persons/yongkeun-park/"},
     {"name": "Seung Ah Lee", "affiliation": "Seoul National University", "role": "Co-chair",
-     "photo": "seung-ah-lee.jpg"},
+     "photo": "seung-ah-lee.jpg", "photo_source": "https://imaging.snu.ac.kr/team"},
     {"name": "Renjie Zhou", "affiliation": "The Chinese University of Hong Kong", "role": "Co-chair, local host",
      "photo": "renjie-zhou.jpg", "photo_position": "center top", "photo_source": "https://research.cuhk.edu.hk/en/persons/renjie-zhou/"},
     {"name": "Yongsoo Yang", "affiliation": "KAIST", "role": "Co-chair",
-     "photo": "yongsoo-yang.jpg"},
+     "photo": "yongsoo-yang.jpg", "photo_source": "https://pure.kaist.ac.kr/en/persons/yongsoo-yang/"},
 ]
 
 # Roles that should not be shown as an invited talk on the public archive.
