@@ -135,6 +135,8 @@ def build_index(data):
 
     people = "\n".join(person_card(o) for o in data["organizers"])
 
+    speakers = "\n".join(person_card(o) for o in cur.get("speakers", []))
+    committee = "\n".join(person_card(o) for o in cur.get("program_committee", []))
     past_count = len(data["past"])
     talk_count = sum(p["speaker_count"] for p in data["past"])
 
@@ -146,6 +148,11 @@ def build_index(data):
             f'<p><a class="btn" href="{e(reg["url"])}">Register</a></p>'
             f'<p style="margin-top:1rem">Attendance is {e(reg.get("fee", "free")).lower()}. '
             "Poster submissions are made through the same form.</p>"
+            f'<p><strong>Poster abstract deadline: {e(cur["poster_deadline"])}.</strong></p>'
+            '<p>Complimentary conference dinner places are offered to advance registrants '
+            'on a first-come, first-served basis, subject to availability. The current '
+            'reservation is for 50 people; dinner capacity is separate from registration capacity.</p>'
+
         )
     else:
         reg_fact = f'{e(reg.get("fee", "Free"))} &middot; opens soon'
@@ -179,12 +186,13 @@ def build_index(data):
 
 <section>
   <div class="wrap">
-    <h2>Programme</h2>
-    <p>The scientific programme runs for a full day on the Friday, with a welcome reception the evening before and an excursion on the Saturday.</p>
+    <h2>Preliminary programme</h2>
+    <p>Updated {e(cur["updated"])}. All times are Hong Kong time (HKT, UTC+8). Detailed talk times, titles and speaker order will follow.</p>
+    <p>The scientific programme runs for a full day on the Friday, with a welcome dinner the evening before and an optional excursion planned for Saturday.</p>
     <ul class="schedule">
 {schedule}
     </ul>
-    <p style="margin-top:1.75rem">The day is built around <strong>six invited talks</strong>, three in the morning and three in the afternoon, together with a poster session. Selected posters are introduced in a short lightning round, and participants vote for the best poster.</p>
+    <p style="margin-top:1.75rem">The day is planned around <strong>six invited talks of 40 minutes each, including discussion</strong>, three in the morning and three in the afternoon, together with a poster session. Approximately four selected posters will be introduced in five-minute lightning talks, and participants will vote for the best poster. Coffee breaks are planned for 20 minutes. Lunch for chairs and invited speakers is booked for 12:00 at CC Staff Canteen.</p>
   </div>
 </section>
 
@@ -199,7 +207,11 @@ def build_index(data):
 <section>
   <div class="wrap">
     <h2>Invited speakers</h2>
-    <p class="notice">The 2026 speaker list is being finalised and will be announced here. Across the {past_count} previous editions the symposium has hosted <strong>{talk_count} invited talks</strong> — see <a href="past/">past editions</a>.</p>
+    <p>Confirmed speakers, listed alphabetically by surname. All invited talks take place on Friday, 20 November. One further invited speaker will be announced once confirmed.</p>
+    <div class="people">
+{speakers}
+    </div>
+    <p>Talk titles and abstracts will be added as they become available.</p>
   </div>
 </section>
 
@@ -213,12 +225,13 @@ def build_index(data):
 <section>
   <div class="wrap">
     <h2>Venue and travel</h2>
-    <p>The meeting is held at <strong>{e(cur['venue'])}</strong>. Most international visitors do not require a visa to enter Hong Kong, which makes this an unusually easy meeting to reach for colleagues across the region. Information on accommodation will be posted here.</p>
+    <p>The meeting is held at <strong>{e(cur['venue'])}</strong>. The scientific sessions and posters will be in <strong>{e(cur["venue_room"])}</strong>. For travel or visa-support coordination, contact <a href="mailto:qhzhang@cuhk.edu.hk">Qihang Zhang</a>.</p>
+    <p>The local team is coordinating hotel arrangements and a possible group discount at Hyatt Regency Hong Kong, Sha Tin. Booking instructions will follow.</p>
     <figure class="shot">
       <img src="assets/img/campus.jpg" alt="The CUHK campus on its hillside above Sha Tin" width="2000" height="800" loading="lazy">
       <figcaption>The CUHK campus. Photo: Citobun, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></figcaption>
     </figure>
-    <p style="margin-top:1.75rem">Saturday is given over to an excursion, so there is time to see the city as well as the meeting.</p>
+    <p style="margin-top:1.75rem">An optional Saturday excursion is planned; the route and departure time are still being arranged.</p>
     <figure class="shot">
       <img src="assets/img/harbour.jpg" alt="Victoria Harbour at night" width="2000" height="800" loading="lazy">
       <figcaption>Victoria Harbour. Photo: Benh Lieu Song, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></figcaption>
@@ -229,9 +242,17 @@ def build_index(data):
 
 <section>
   <div class="wrap">
-    <h2>Organizers</h2>
+    <h2>Symposium chairs</h2>
     <div class="people">
 {people}
+    </div>
+  </div>
+</section>
+<section>
+  <div class="wrap">
+    <h2>Program committee</h2>
+    <div class="people">
+{committee}
     </div>
   </div>
 </section>

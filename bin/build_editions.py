@@ -94,11 +94,25 @@ CURRENT = {
     "location": "Hong Kong",
     "format": "In person",
     "schedule": [
-        {"day": "Thursday 19 November", "what": "Welcome reception (chairs and invited speakers)"},
-        {"day": "Friday 20 November", "what": "Scientific programme, followed by dinner"},
-        {"day": "Saturday 21 November", "what": "Excursion"},
+        {"day": "Thursday 19 November", "what": "18:00 — Welcome dinner for chairs and invited speakers at Sha Tin 18, Hyatt Regency Hong Kong, Sha Tin."},
+        {"day": "Friday 20 November", "what": "Full-day scientific programme and posters in SHB 603. Conference dinner, 18:00–20:45, at Chung Chi College Student Canteen, 1/F South Wing."},
+        {"day": "Saturday 21 November", "what": "Optional excursion planned. A half-day boat trip and lunch are under consideration; route, timing and participation details will follow, subject to weather."},
     ],
-    "speakers_status": "to-be-announced",
+    "speakers_status": "partially-confirmed",
+    "updated": "24 September 2026",
+    "speakers": [
+        {"name": "Nicholas Durr", "affiliation": "Johns Hopkins University", "role": "Invited speaker", "photo": None},
+        {"name": "Yuan Luo", "affiliation": "National Taiwan University", "role": "Invited speaker", "photo": None},
+        {"name": "Kevin Tsia", "affiliation": "The University of Hong Kong", "role": "Invited speaker", "photo": None},
+        {"name": "Kenneth K. Y. Wong", "affiliation": "The University of Hong Kong", "role": "Invited speaker", "photo": None},
+        {"name": "Yongsoo Yang", "affiliation": "KAIST", "role": "Invited speaker", "photo": "yongsoo-yang.jpg"},
+    ],
+    "program_committee": [
+        {"name": "Qihang Zhang", "affiliation": "The Chinese University of Hong Kong", "role": "Program committee", "photo": None},
+    ],
+    "poster_deadline": "30 October 2026, 23:59 HKT",
+    "venue_room": "Ho Sin-Hang Engineering Building (SHB), Room 603",
+
     # Registration. Set "url" once the form exists; the button appears only then.
     # Do not reuse a previous edition's form — responses would land in its sheet.
     "registration": {
