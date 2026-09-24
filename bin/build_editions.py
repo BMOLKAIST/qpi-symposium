@@ -96,7 +96,7 @@ CURRENT = {
     "schedule": [
         {"day": "Thursday 19 November", "what": "18:00 — Welcome dinner for chairs and invited speakers at Sha Tin 18, Hyatt Regency Hong Kong, Sha Tin."},
         {"day": "Friday 20 November", "what": "Full-day scientific programme and posters in SHB 603. Conference dinner, 18:00–20:45, at Chung Chi College Student Canteen, 1/F South Wing."},
-        {"day": "Saturday 21 November", "what": "Optional excursion planned. A half-day boat trip and lunch are under consideration; route, timing and participation details will follow, subject to weather."},
+        {"day": "Saturday 21 November", "what": "Optional informal scientific discussions are planned. Further details will be announced at the symposium."},
     ],
     "speakers_status": "partially-confirmed",
     "updated": "24 September 2026",
