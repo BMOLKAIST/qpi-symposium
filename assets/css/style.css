@@ -516,3 +516,16 @@ footer p {
   line-height: 1.4;
   color: rgba(237, 237, 237, 0.45);
 }
+
+/* Invited speakers: open rows allow titles to grow without card constraints. */
+.speaker-list { list-style: none; padding: 0; margin: 2rem 0 0; }
+.speaker-row { display: flex; align-items: flex-start; gap: 1.5rem; padding: 1.25rem 0; }
+.speaker-row .face { flex: 0 0 72px; width: 72px; height: 72px; margin: 0; }
+.speaker-details { min-width: 0; }
+.speaker-details h3 { font-family: var(--serif); font-size: 1.3rem; font-weight: 400; margin: 0; }
+.speaker-details .speaker-affiliation { color: var(--text-dim); font-size: .92rem; margin: .3rem 0 0; }
+.speaker-details .speaker-title { margin: .7rem 0 0; font-size: 1.08rem; overflow-wrap: anywhere; }
+@media (max-width: 620px) {
+  .speaker-row { gap: 1rem; }
+  .speaker-row .face { flex-basis: 52px; width: 52px; height: 52px; }
+}

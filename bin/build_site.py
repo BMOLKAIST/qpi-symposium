@@ -118,7 +118,7 @@ def build_index(data):
         for s in cur["schedule"]
     )
 
-    def person_card(o):
+    def person_card(o, speaker=False):
         photo = o.get("photo")
         if photo:
             face = f'<img class="face" src="assets/img/people/{e(photo)}" alt="{e(o["name"])}" loading="lazy" width="640" height="640">'
@@ -126,6 +126,15 @@ def build_index(data):
             # No portrait yet. Show initials rather than a broken image.
             initials = "".join(w[0] for w in o["name"].replace("(", "").replace(")", "").split()[:2]).upper()
             face = f'<div class="face placeholder" aria-hidden="true">{e(initials)}</div>'
+        if speaker:
+            title = o.get("title")
+            talk = f'<p class="speaker-title">{e(title)}</p>' if title else ""
+            return (
+                f'<li class="speaker-row">{face}<div class="speaker-details">'
+                f'<h3>{e(o["name"])}</h3>'
+                f'<p class="speaker-affiliation">{e(o["affiliation"])}</p>'
+                f'{talk}</div></li>'
+            )
         return (
             f'      <div class="person">{face}'
             f'<div class="n">{e(o["name"])}</div>'
@@ -135,7 +144,7 @@ def build_index(data):
 
     people = "\n".join(person_card(o) for o in data["organizers"])
 
-    speakers = "\n".join(person_card(o) for o in cur.get("speakers", []))
+    speakers = "\n".join(person_card(o, speaker=True) for o in cur.get("speakers", []))
     committee = "\n".join(person_card(o) for o in cur.get("program_committee", []))
     past_count = len(data["past"])
     talk_count = sum(p["speaker_count"] for p in data["past"])
@@ -160,7 +169,7 @@ def build_index(data):
         reg_section = f'<p class="notice">{e(reg.get("note", "Registration will open here."))}</p>'
 
 
-    return f"""{head(title, desc, "assets/css/style.css", "https://bmolkaist.github.io/qpi-symposium/")}
+    return f"""{head(title, desc, "assets/css/style.css?v=20260924-speakers", "https://bmolkaist.github.io/qpi-symposium/")}
 {topbar("", "home")}
 
 <div class="hero">
@@ -188,7 +197,7 @@ def build_index(data):
   <div class="wrap">
     <h2>Preliminary programme</h2>
     <p>Updated {e(cur["updated"])}. All times are Hong Kong time (HKT, UTC+8). Detailed talk times, titles and speaker order will follow.</p>
-    <p>The scientific programme runs for a full day on the Friday, with a welcome dinner the evening before and an optional excursion planned for Saturday.</p>
+    <p>The scientific programme runs for a full day on the Friday, with a welcome dinner the evening before and optional informal scientific discussions planned for Saturday.</p>
     <ul class="schedule">
 {schedule}
     </ul>
@@ -208,9 +217,9 @@ def build_index(data):
   <div class="wrap">
     <h2>Invited speakers</h2>
     <p>Confirmed speakers, listed alphabetically by surname. All invited talks take place on Friday, 20 November. One further invited speaker will be announced once confirmed.</p>
-    <div class="people">
+    <ul class="speaker-list">
 {speakers}
-    </div>
+    </ul>
     <p>Talk titles and abstracts will be added as they become available.</p>
   </div>
 </section>
@@ -231,7 +240,7 @@ def build_index(data):
       <img src="assets/img/campus.jpg" alt="The CUHK campus on its hillside above Sha Tin" width="2000" height="800" loading="lazy">
       <figcaption>The CUHK campus. Photo: Citobun, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></figcaption>
     </figure>
-    <p style="margin-top:1.75rem">An optional Saturday excursion is planned; the route and departure time are still being arranged.</p>
+    <p style="margin-top:1.75rem">Further details of the optional Saturday discussions will be announced at the symposium.</p>
     <figure class="shot">
       <img src="assets/img/harbour.jpg" alt="Victoria Harbour at night" width="2000" height="800" loading="lazy">
       <figcaption>Victoria Harbour. Photo: Benh Lieu Song, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></figcaption>
