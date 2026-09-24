@@ -95,7 +95,34 @@ def footer(root, series):
 <footer>
   <div class="wrap">
     <p>{e(series['name'])} — held since {series['since']}.</p>
-    <p>Organized by KAIST, Seoul National University and The Chinese University of Hong Kong.</p>
+    <div class="footer-partners">
+      <h2>Co-organizers</h2>
+      <div class="partner-logos university-logos">
+        <a class="partner-logo" href="https://www.cuhk.edu.hk/english/" aria-label="The Chinese University of Hong Kong">
+          <img src="{root}assets/img/partners/cuhk.png" alt="The Chinese University of Hong Kong">
+        </a>
+        <a class="partner-logo" href="https://www.kaist.ac.kr/en/" aria-label="KAIST">
+          <img src="{root}assets/img/partners/kaist.png" alt="KAIST">
+        </a>
+        <a class="partner-logo" href="https://en.snu.ac.kr/" aria-label="Seoul National University">
+          <img src="{root}assets/img/partners/snu.png" alt="Seoul National University">
+        </a>
+      </div>
+      <div class="partner-logos chapter-logo">
+        <a class="partner-logo" href="https://ieee.org/" aria-label="IEEE Photonics Society">
+          <img src="{root}assets/img/partners/ieee-photonics-society.png" alt="IEEE Photonics Society">
+        </a>
+        <span class="partner-name">Hong Kong Chapter</span>
+      </div>
+    </div>
+    <div class="footer-partners sponsor-partners">
+      <h2>Sponsor</h2>
+      <div class="partner-logos sponsor-logo">
+        <a class="partner-logo" href="https://www.tomocube.com/" aria-label="Tomocube">
+          <img src="{root}assets/img/partners/tomocube.png" alt="Tomocube">
+        </a>
+      </div>
+    </div>
     <p>Earlier editions were announced on the <a href="https://bmokaist.wordpress.com/webinar/">previous events page</a>. This site is now the current record.</p>
   </div>
 </footer>
