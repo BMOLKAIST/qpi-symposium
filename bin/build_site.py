@@ -119,9 +119,13 @@ def build_index(data):
     )
 
     def person_card(o, speaker=False):
+        name = e(o["name"])
+        if o.get("photo_source"):
+            name = f'<a href="{e(o["photo_source"])}" title="Profile and portrait source">{name}</a>'
         photo = o.get("photo")
         if photo:
-            face = f'<img class="face" src="assets/img/people/{e(photo)}" alt="{e(o["name"])}" loading="lazy" width="640" height="640">'
+            position = e(o.get("photo_position", "center"))
+            face = f'<img class="face" style="object-position:{position}" src="assets/img/people/{e(photo)}" alt="{e(o["name"])}" loading="lazy" width="640" height="640">'
         else:
             # No portrait yet. Show initials rather than a broken image.
             initials = "".join(w[0] for w in o["name"].replace("(", "").replace(")", "").split()[:2]).upper()
@@ -131,13 +135,13 @@ def build_index(data):
             talk = f'<p class="speaker-title">{e(title)}</p>' if title else ""
             return (
                 f'<li class="speaker-row">{face}<div class="speaker-details">'
-                f'<h3>{e(o["name"])}</h3>'
+                f'<h3>{name}</h3>'
                 f'<p class="speaker-affiliation">{e(o["affiliation"])}</p>'
                 f'{talk}</div></li>'
             )
         return (
             f'      <div class="person">{face}'
-            f'<div class="n">{e(o["name"])}</div>'
+            f'<div class="n">{name}</div>'
             f'<div class="a">{e(o["affiliation"])}</div>'
             f'<div class="r">{e(o["role"])}</div></div>'
         )

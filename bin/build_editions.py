@@ -101,14 +101,14 @@ CURRENT = {
     "speakers_status": "partially-confirmed",
     "updated": "24 September 2026",
     "speakers": [
-        {"name": "Nicholas Durr", "affiliation": "Johns Hopkins University", "role": "Invited speaker", "photo": None},
-        {"name": "Yuan Luo", "affiliation": "National Taiwan University", "role": "Invited speaker", "photo": None},
-        {"name": "Kevin Tsia", "affiliation": "The University of Hong Kong", "role": "Invited speaker", "photo": None},
-        {"name": "Kenneth K. Y. Wong", "affiliation": "The University of Hong Kong", "role": "Invited speaker", "photo": None},
+        {"name": "Nicholas Durr", "affiliation": "Johns Hopkins University", "role": "Invited speaker", "photo": "nicholas-durr.jpg", "photo_source": "https://www.bme.jhu.edu/people/faculty/nicholas-durr/"},
+        {"name": "Yuan Luo", "affiliation": "National Taiwan University", "role": "Invited speaker", "photo": "yuan-luo.jpg", "photo_source": "https://phrtacp.ntu.edu.tw/about/8.htm"},
+        {"name": "Kevin Tsia", "affiliation": "The University of Hong Kong", "role": "Invited speaker", "photo": "kevin-tsia.jpg", "photo_position": "center top", "photo_source": "https://ece.hku.hk/people/tsia/"},
+        {"name": "Kenneth K. Y. Wong", "affiliation": "The University of Hong Kong", "role": "Invited speaker", "photo": "kenneth-wong.png", "photo_source": "https://www.lsr.hku.hk/member/kenneth-k-y-wong-professor-department-of-electrical-electronic-engineering/"},
         {"name": "Yongsoo Yang", "affiliation": "KAIST", "role": "Invited speaker", "photo": "yongsoo-yang.jpg"},
     ],
     "program_committee": [
-        {"name": "Qihang Zhang", "affiliation": "The Chinese University of Hong Kong", "role": "Program committee", "photo": None},
+        {"name": "Qihang Zhang", "affiliation": "The Chinese University of Hong Kong", "role": "Program committee", "photo": "qihang-zhang.jpg", "photo_source": "https://qhzhang95.github.io/"},
     ],
     "poster_deadline": "30 October 2026, 23:59 HKT",
     "venue_room": "Ho Sin-Hang Engineering Building (SHB), Room 603",
@@ -122,16 +122,16 @@ CURRENT = {
     },
 }
 
-# "photo" is a filename under assets/img/people/, or None until the person has
-# sent one. Never take a portrait from a department page — it is someone else's
-# copyright and their likeness, and they should pick which photo of them goes up.
+# Portraits prefer supplied files. On 2026-09-24 the organizer also requested
+# public university/personal profile photos; record their sources and replace
+# with speaker-supplied versions when available. See portrait-sources.csv.
 ORGANIZERS = [
     {"name": "YongKeun (Paul) Park", "affiliation": "KAIST", "role": "Chair",
      "photo": "yongkeun-park.jpg"},
     {"name": "Seung Ah Lee", "affiliation": "Seoul National University", "role": "Co-chair",
      "photo": "seung-ah-lee.jpg"},
     {"name": "Renjie Zhou", "affiliation": "The Chinese University of Hong Kong", "role": "Co-chair, local host",
-     "photo": None},
+     "photo": "renjie-zhou.jpg", "photo_position": "center top", "photo_source": "https://research.cuhk.edu.hk/en/persons/renjie-zhou/"},
     {"name": "Yongsoo Yang", "affiliation": "KAIST", "role": "Co-chair",
      "photo": "yongsoo-yang.jpg"},
 ]

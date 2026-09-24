@@ -35,25 +35,30 @@
         "name": "Nicholas Durr",
         "affiliation": "Johns Hopkins University",
         "role": "Invited speaker",
-        "photo": null
+        "photo": "nicholas-durr.jpg",
+        "photo_source": "https://www.bme.jhu.edu/people/faculty/nicholas-durr/"
       },
       {
         "name": "Yuan Luo",
         "affiliation": "National Taiwan University",
         "role": "Invited speaker",
-        "photo": null
+        "photo": "yuan-luo.jpg",
+        "photo_source": "https://phrtacp.ntu.edu.tw/about/8.htm"
       },
       {
         "name": "Kevin Tsia",
         "affiliation": "The University of Hong Kong",
         "role": "Invited speaker",
-        "photo": null
+        "photo": "kevin-tsia.jpg",
+        "photo_position": "center top",
+        "photo_source": "https://ece.hku.hk/people/tsia/"
       },
       {
         "name": "Kenneth K. Y. Wong",
         "affiliation": "The University of Hong Kong",
         "role": "Invited speaker",
-        "photo": null
+        "photo": "kenneth-wong.png",
+        "photo_source": "https://www.lsr.hku.hk/member/kenneth-k-y-wong-professor-department-of-electrical-electronic-engineering/"
       },
       {
         "name": "Yongsoo Yang",
@@ -67,7 +72,8 @@
         "name": "Qihang Zhang",
         "affiliation": "The Chinese University of Hong Kong",
         "role": "Program committee",
-        "photo": null
+        "photo": "qihang-zhang.jpg",
+        "photo_source": "https://qhzhang95.github.io/"
       }
     ],
     "poster_deadline": "30 October 2026, 23:59 HKT",
@@ -95,7 +101,9 @@
       "name": "Renjie Zhou",
       "affiliation": "The Chinese University of Hong Kong",
       "role": "Co-chair, local host",
-      "photo": null
+      "photo": "renjie-zhou.jpg",
+      "photo_position": "center top",
+      "photo_source": "https://research.cuhk.edu.hk/en/persons/renjie-zhou/"
     },
     {
       "name": "Yongsoo Yang",

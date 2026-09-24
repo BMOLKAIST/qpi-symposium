@@ -45,9 +45,12 @@ black canvas instead of punching a bright hole in it.
 Credits are required for the CC BY-SA photographs and are written into the
 figure captions. Do not remove them.
 
-Organizer portraits go in `assets/img/people/`. Ask each person for a photo —
-never take one from a department page. Until someone sends one their card shows
-their initials, which is why there is no broken-image placeholder in the repo.
+Portraits go in `assets/img/people/`. Prefer files supplied by participants.
+On 2026-09-24 the organizer requested public university and personal profile
+photos for missing portraits. Their provenance and rights status are recorded
+in `assets/img/people/portrait-sources.csv`; public availability is not a reuse
+license. Replace these with participant-supplied photos when available.
+Names link to the source profiles. Missing portraits fall back to initials.
 
 ## Conventions
 
