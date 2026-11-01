@@ -131,6 +131,11 @@ CURRENT = {
     ],
     "poster_deadline": "30 October 2026, 23:59 HKT",
     "venue_room": "Ho Sin-Hang Engineering Building (SHB), Room 603",
+    "programme_book": {
+        "url": "assets/programme/2026-11-20_QPI-Symposium_Programbook-draft_v06.pdf",
+        "version": "v06",
+        "pages": 45,
+    },
 
     # Registration. Set "url" once the form exists; the button appears only then.
     # Do not reuse a previous edition's form — responses would land in its sheet.

@@ -168,6 +168,11 @@
     ],
     "poster_deadline": "30 October 2026, 23:59 HKT",
     "venue_room": "Ho Sin-Hang Engineering Building (SHB), Room 603",
+    "programme_book": {
+      "url": "assets/programme/2026-11-20_QPI-Symposium_Programbook-draft_v06.pdf",
+      "version": "v06",
+      "pages": 45
+    },
     "registration": {
       "url": "https://forms.gle/XYUY5wwuBPstPwc39",
       "fee": "Free",

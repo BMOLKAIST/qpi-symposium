@@ -187,6 +187,13 @@ def build_index(data):
     past_count = len(data["past"])
     talk_count = sum(p["speaker_count"] for p in data["past"])
 
+    book = cur.get("programme_book") or {}
+    book_download = (
+        f'<p><a class="btn" href="{e(book["url"])}" download>Download programme book (PDF)</a></p>'
+        f'<p>Draft {e(book["version"])} &middot; {e(book["pages"])} pages.</p>'
+        if book.get("url") else ""
+    )
+
     reg = cur.get("registration") or {}
     if reg.get("url"):
         reg_fact = e(reg.get("fee", "Free"))
@@ -235,6 +242,7 @@ def build_index(data):
   <div class="wrap">
     <h2>Preliminary programme</h2>
     <p>Updated {e(cur["updated"])}. Proposed schedule, subject to confirmation. All times are Hong Kong time (HKT, UTC+8).</p>
+    {book_download}
     <p>The scientific programme runs for a full day on Friday, with a welcome dinner the evening before and an optional half-day scientific discussion session planned for Saturday.</p>
     <ul class="schedule">
 {schedule}
