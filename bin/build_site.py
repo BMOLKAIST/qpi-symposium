@@ -247,7 +247,7 @@ def build_index(data):
 <section>
   <div class="wrap">
     <h2>Invited speakers</h2>
-    <p>Confirmed speakers, listed alphabetically by surname. All invited talks take place on Friday, 20 November. One further invited speaker will be announced once confirmed.</p>
+    <p>All six invited speakers are confirmed, listed alphabetically by surname. All invited talks take place on Friday, 20 November.</p>
     <ul class="speaker-list">
 {speakers}
     </ul>

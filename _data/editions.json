@@ -28,8 +28,8 @@
         "what": "Optional informal scientific discussions are planned. Further details will be announced at the symposium."
       }
     ],
-    "speakers_status": "partially-confirmed",
-    "updated": "24 September 2026",
+    "speakers_status": "confirmed",
+    "updated": "2 November 2026",
     "speakers": [
       {
         "name": "Nicholas Durr",
@@ -66,6 +66,13 @@
         "role": "Invited speaker",
         "photo": "yongsoo-yang.jpg",
         "photo_source": "https://pure.kaist.ac.kr/en/persons/yongsoo-yang/"
+      },
+      {
+        "name": "Naru Yoneda",
+        "affiliation": "Kobe University",
+        "role": "Invited speaker",
+        "photo": "naru-yoneda.jpg",
+        "photo_source": "https://kuid-rm-web.ofc.kobe-u.ac.jp/search/detail.html?lang=en&systemId=2617c36cf20f7e13520e17560c007669"
       }
     ],
     "program_committee": [

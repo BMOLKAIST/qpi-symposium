@@ -98,14 +98,15 @@ CURRENT = {
         {"day": "Friday 20 November", "what": "Full-day scientific programme and posters in SHB 603. Conference dinner, 18:00–20:45, at Chung Chi College Student Canteen, 1/F South Wing."},
         {"day": "Saturday 21 November", "what": "Optional informal scientific discussions are planned. Further details will be announced at the symposium."},
     ],
-    "speakers_status": "partially-confirmed",
-    "updated": "24 September 2026",
+    "speakers_status": "confirmed",
+    "updated": "2 November 2026",
     "speakers": [
         {"name": "Nicholas Durr", "affiliation": "Johns Hopkins University", "role": "Invited speaker", "photo": "nicholas-durr.jpg", "photo_source": "https://www.bme.jhu.edu/people/faculty/nicholas-durr/"},
         {"name": "Yuan Luo", "affiliation": "National Taiwan University", "role": "Invited speaker", "photo": "yuan-luo.jpg", "photo_source": "https://phrtacp.ntu.edu.tw/about/8.htm"},
         {"name": "Kevin Tsia", "affiliation": "The University of Hong Kong", "role": "Invited speaker", "photo": "kevin-tsia.jpg", "photo_position": "center top", "photo_source": "https://ece.hku.hk/people/tsia/"},
         {"name": "Kenneth K. Y. Wong", "affiliation": "The University of Hong Kong", "role": "Invited speaker", "photo": "kenneth-wong.png", "photo_source": "https://www.lsr.hku.hk/member/kenneth-k-y-wong-professor-department-of-electrical-electronic-engineering/"},
         {"name": "Yongsoo Yang", "affiliation": "KAIST", "role": "Invited speaker", "photo": "yongsoo-yang.jpg", "photo_source": "https://pure.kaist.ac.kr/en/persons/yongsoo-yang/"},
+        {"name": "Naru Yoneda", "affiliation": "Kobe University", "role": "Invited speaker", "photo": "naru-yoneda.jpg", "photo_source": "https://kuid-rm-web.ofc.kobe-u.ac.jp/search/detail.html?lang=en&systemId=2617c36cf20f7e13520e17560c007669"},
     ],
     "program_committee": [
         {"name": "Qihang Zhang", "affiliation": "The Chinese University of Hong Kong", "role": "Program committee", "photo": "qihang-zhang.jpg", "photo_source": "https://qhzhang95.github.io/"},
