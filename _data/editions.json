@@ -21,11 +21,93 @@
       },
       {
         "day": "Friday 20 November",
-        "what": "Full-day scientific programme and posters in SHB 603. Conference dinner, 18:00–20:45, at Chung Chi College Student Canteen, 1/F South Wing."
+        "what": "Scientific programme and posters in SHB 603, followed by the conference dinner. See the proposed detailed schedule below."
       },
       {
         "day": "Saturday 21 November",
-        "what": "Optional informal scientific discussions are planned. Further details will be announced at the symposium."
+        "what": "Optional half-day scientific discussion session. Detailed information will be announced during the symposium."
+      }
+    ],
+    "scientific_programme": [
+      {
+        "time": "08:45–09:20",
+        "event": "Registration and poster setup",
+        "detail": ""
+      },
+      {
+        "time": "09:20–09:30",
+        "event": "Opening remarks",
+        "detail": ""
+      },
+      {
+        "time": "09:30–10:10",
+        "event": "Nicholas Durr",
+        "detail": "Invited talk 1 · Johns Hopkins University"
+      },
+      {
+        "time": "10:10–10:50",
+        "event": "Yuan Luo",
+        "detail": "Invited talk 2 · National Taiwan University"
+      },
+      {
+        "time": "10:50–11:10",
+        "event": "Coffee break",
+        "detail": ""
+      },
+      {
+        "time": "11:10–11:50",
+        "event": "Kevin Tsia",
+        "detail": "Invited talk 3 · The University of Hong Kong"
+      },
+      {
+        "time": "11:50–12:00",
+        "event": "Group photograph",
+        "detail": ""
+      },
+      {
+        "time": "12:00–13:30",
+        "event": "Lunch break",
+        "detail": "Chairs and invited speakers: CC Staff Canteen"
+      },
+      {
+        "time": "13:30–14:10",
+        "event": "Kenneth K. Y. Wong",
+        "detail": "Invited talk 4 · The University of Hong Kong"
+      },
+      {
+        "time": "14:10–14:50",
+        "event": "Yongsoo Yang",
+        "detail": "Invited talk 5 · KAIST"
+      },
+      {
+        "time": "14:50–15:10",
+        "event": "Coffee break",
+        "detail": ""
+      },
+      {
+        "time": "15:10–15:50",
+        "event": "Naru Yoneda",
+        "detail": "Invited talk 6 · Kobe University"
+      },
+      {
+        "time": "15:50–16:10",
+        "event": "Poster lightning talks",
+        "detail": ""
+      },
+      {
+        "time": "16:10–17:20",
+        "event": "Poster session and discussion",
+        "detail": ""
+      },
+      {
+        "time": "17:20–17:40",
+        "event": "Poster awards and closing remarks",
+        "detail": ""
+      },
+      {
+        "time": "18:00–20:45",
+        "event": "Conference dinner",
+        "detail": "Chung Chi College Student Canteen, 1/F South Wing"
       }
     ],
     "speakers_status": "confirmed",

@@ -418,6 +418,16 @@ table.speakers td:nth-child(3) {
   overflow-x: auto;
 }
 
+.programme strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.programme .event-detail {
+  margin-top: 0.2rem;
+  font-size: 0.9em;
+}
+
 /* ---------- footer ---------- */
 
 footer {

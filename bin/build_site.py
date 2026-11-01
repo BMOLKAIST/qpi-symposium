@@ -144,6 +144,13 @@ def build_index(data):
         f"""      <li><div class="day">{e(s['day'])}</div><div class="what">{e(s['what'])}</div></li>"""
         for s in cur["schedule"]
     )
+    programme_rows = "\n".join(
+        '<tr><td>' + e(slot['time']) + '</td><td>'
+        + ('<strong>' + e(slot['event']) + '</strong>' if slot['detail'].startswith('Invited talk') else e(slot['event']))
+        + ('<div class="event-detail">' + e(slot['detail']) + '</div>' if slot['detail'] else '')
+        + '</td></tr>'
+        for slot in cur['scientific_programme']
+    )
 
     def person_card(o, speaker=False):
         name = e(o["name"])
@@ -200,7 +207,7 @@ def build_index(data):
         reg_section = f'<p class="notice">{e(reg.get("note", "Registration will open here."))}</p>'
 
 
-    return f"""{head(title, desc, "assets/css/style.css?v=20260924-poster-fit", "https://bmolkaist.github.io/qpi-symposium/")}
+    return f"""{head(title, desc, "assets/css/style.css?v=20261102-programme", "https://bmolkaist.github.io/qpi-symposium/")}
 {topbar("", "home")}
 
 <div class="hero">
@@ -227,12 +234,22 @@ def build_index(data):
 <section>
   <div class="wrap">
     <h2>Preliminary programme</h2>
-    <p>Updated {e(cur["updated"])}. All times are Hong Kong time (HKT, UTC+8). Detailed talk times, titles and speaker order will follow.</p>
-    <p>The scientific programme runs for a full day on the Friday, with a welcome dinner the evening before and optional informal scientific discussions planned for Saturday.</p>
+    <p>Updated {e(cur["updated"])}. Proposed schedule, subject to confirmation. All times are Hong Kong time (HKT, UTC+8).</p>
+    <p>The scientific programme runs for a full day on Friday, with a welcome dinner the evening before and an optional half-day scientific discussion session planned for Saturday.</p>
     <ul class="schedule">
 {schedule}
     </ul>
-    <p style="margin-top:1.75rem">The day is planned around <strong>six invited talks of 40 minutes each, including discussion</strong>, three in the morning and three in the afternoon, together with a poster session. Approximately four selected posters will be introduced in five-minute lightning talks, and participants will vote for the best poster. Coffee breaks are planned for 20 minutes. Lunch for chairs and invited speakers is booked for 12:00 at CC Staff Canteen.</p>
+    <h3 style="margin-top:2rem">Friday 20 November 2026</h3>
+    <p>Scientific programme: Ho Sin-Hang Engineering Building (SHB), Room 603. Each invited talk includes a 35-minute presentation and 5 minutes for questions.</p>
+    <div class="tablewrap">
+      <table class="speakers programme">
+        <thead><tr><th scope="col">Time (HKT)</th><th scope="col">Programme</th></tr></thead>
+        <tbody>
+{programme_rows}
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:1.5rem">Four five-minute poster lightning talks are planned. The selected presenters and session chairs will be announced.</p>
   </div>
 </section>
 
