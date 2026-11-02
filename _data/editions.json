@@ -56,8 +56,8 @@
       },
       {
         "time": "11:10–11:50",
-        "event": "Kevin Tsia",
-        "detail": "Invited talk 3 · The University of Hong Kong"
+        "event": "Naru Yoneda",
+        "detail": "Invited talk 3 · Kobe University"
       },
       {
         "time": "11:50–12:00",
@@ -86,8 +86,8 @@
       },
       {
         "time": "15:10–15:50",
-        "event": "Naru Yoneda",
-        "detail": "Invited talk 6 · Kobe University"
+        "event": "Kevin Tsia",
+        "detail": "Invited talk 6 · The University of Hong Kong"
       },
       {
         "time": "15:50–16:10",
@@ -128,12 +128,11 @@
         "photo_source": "https://phrtacp.ntu.edu.tw/about/8.htm"
       },
       {
-        "name": "Kevin Tsia",
-        "affiliation": "The University of Hong Kong",
+        "name": "Naru Yoneda",
+        "affiliation": "Kobe University",
         "role": "Invited speaker",
-        "photo": "kevin-tsia.jpg",
-        "photo_position": "center top",
-        "photo_source": "https://ece.hku.hk/people/tsia/"
+        "photo": "naru-yoneda.jpg",
+        "photo_source": "https://kuid-rm-web.ofc.kobe-u.ac.jp/search/detail.html?lang=en&systemId=2617c36cf20f7e13520e17560c007669"
       },
       {
         "name": "Kenneth K. Y. Wong",
@@ -150,11 +149,12 @@
         "photo_source": "https://pure.kaist.ac.kr/en/persons/yongsoo-yang/"
       },
       {
-        "name": "Naru Yoneda",
-        "affiliation": "Kobe University",
+        "name": "Kevin Tsia",
+        "affiliation": "The University of Hong Kong",
         "role": "Invited speaker",
-        "photo": "naru-yoneda.jpg",
-        "photo_source": "https://kuid-rm-web.ofc.kobe-u.ac.jp/search/detail.html?lang=en&systemId=2617c36cf20f7e13520e17560c007669"
+        "photo": "kevin-tsia.jpg",
+        "photo_position": "center top",
+        "photo_source": "https://ece.hku.hk/people/tsia/"
       }
     ],
     "program_committee": [
@@ -169,8 +169,8 @@
     "poster_deadline": "30 October 2026, 23:59 HKT",
     "venue_room": "Ho Sin-Hang Engineering Building (SHB), Room 603",
     "programme_book": {
-      "url": "assets/programme/2026-11-20_QPI-Symposium_Programbook-draft_v06.pdf",
-      "version": "v06",
+      "url": "assets/programme/2026-11-20_QPI-Symposium_Programbook-draft_v07.pdf",
+      "version": "v07",
       "pages": 45
     },
     "registration": {
