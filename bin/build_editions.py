@@ -96,7 +96,7 @@ CURRENT = {
     "schedule": [
         {"day": "Thursday 19 November", "what": "18:00 — Welcome dinner for chairs and invited speakers at Sha Tin 18, Hyatt Regency Hong Kong, Sha Tin."},
         {"day": "Friday 20 November", "what": "Scientific programme and posters in SHB 603, followed by the conference dinner. See the proposed detailed schedule below."},
-        {"day": "Saturday 21 November", "what": "Optional half-day scientific discussion session. Detailed information will be announced during the symposium."},
+        {"day": "Saturday 21 November", "what": "Optional programme. Details will be announced on site."},
     ],
     "scientific_programme": [
         {"time": "08:45–09:20", "event": "Registration and poster setup", "detail": ""},
@@ -117,7 +117,7 @@ CURRENT = {
         {"time": "18:00–20:45", "event": "Conference dinner", "detail": "Chung Chi College Student Canteen, 1/F South Wing"},
     ],
     "speakers_status": "confirmed",
-    "updated": "2 November 2026",
+    "updated": "7 November 2026",
     "speakers": [
         {"name": "Nicholas Durr", "affiliation": "Johns Hopkins University", "role": "Invited speaker", "photo": "nicholas-durr.jpg", "photo_source": "https://www.bme.jhu.edu/people/faculty/nicholas-durr/"},
         {"name": "Yuan Luo", "affiliation": "National Taiwan University", "role": "Invited speaker", "photo": "yuan-luo.jpg", "photo_source": "https://phrtacp.ntu.edu.tw/about/8.htm"},
@@ -132,9 +132,9 @@ CURRENT = {
     "poster_deadline": "30 October 2026, 23:59 HKT",
     "venue_room": "Ho Sin-Hang Engineering Building (SHB), Room 603",
     "programme_book": {
-        "url": "assets/programme/2026-11-20_QPI-Symposium_Programbook-draft_v07.pdf",
-        "version": "v07",
-        "pages": 45,
+        "url": "assets/programme/2026-11-20_QPI-Symposium_Programbook-draft_v09.pdf",
+        "version": "v09",
+        "pages": 53,
     },
 
     # Registration. Set "url" once the form exists; the button appears only then.

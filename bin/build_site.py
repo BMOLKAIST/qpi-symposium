@@ -243,7 +243,7 @@ def build_index(data):
     <h2>Preliminary programme</h2>
     <p>Updated {e(cur["updated"])}. Proposed schedule, subject to confirmation. All times are Hong Kong time (HKT, UTC+8).</p>
     {book_download}
-    <p>The scientific programme runs for a full day on Friday, with a welcome dinner the evening before and an optional half-day scientific discussion session planned for Saturday.</p>
+    <p>The scientific programme runs for a full day on Friday, with a welcome dinner the evening before. Details of the optional Saturday programme will be announced on site.</p>
     <ul class="schedule">
 {schedule}
     </ul>
@@ -257,7 +257,7 @@ def build_index(data):
         </tbody>
       </table>
     </div>
-    <p style="margin-top:1.5rem">Four five-minute poster lightning talks are planned. The selected presenters and session chairs will be announced.</p>
+    <p style="margin-top:1.5rem">Four five-minute poster lightning talks and 31 poster abstracts are included in the programme book. Session chairs will be announced.</p>
   </div>
 </section>
 
@@ -296,7 +296,7 @@ def build_index(data):
       <img src="assets/img/campus.jpg" alt="The CUHK campus on its hillside above Sha Tin" width="2000" height="800" loading="lazy">
       <figcaption>The CUHK campus. Photo: Citobun, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></figcaption>
     </figure>
-    <p style="margin-top:1.75rem">Further details of the optional Saturday discussions will be announced at the symposium.</p>
+    <p style="margin-top:1.75rem">Details of the optional Saturday programme will be announced on site.</p>
     <figure class="shot">
       <img src="assets/img/harbour.jpg" alt="Victoria Harbour at night" width="2000" height="800" loading="lazy">
       <figcaption>Victoria Harbour. Photo: Benh Lieu Song, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></figcaption>

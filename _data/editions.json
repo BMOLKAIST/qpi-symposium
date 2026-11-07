@@ -25,7 +25,7 @@
       },
       {
         "day": "Saturday 21 November",
-        "what": "Optional half-day scientific discussion session. Detailed information will be announced during the symposium."
+        "what": "Optional programme. Details will be announced on site."
       }
     ],
     "scientific_programme": [
@@ -111,7 +111,7 @@
       }
     ],
     "speakers_status": "confirmed",
-    "updated": "2 November 2026",
+    "updated": "7 November 2026",
     "speakers": [
       {
         "name": "Nicholas Durr",
@@ -169,9 +169,9 @@
     "poster_deadline": "30 October 2026, 23:59 HKT",
     "venue_room": "Ho Sin-Hang Engineering Building (SHB), Room 603",
     "programme_book": {
-      "url": "assets/programme/2026-11-20_QPI-Symposium_Programbook-draft_v07.pdf",
-      "version": "v07",
-      "pages": 45
+      "url": "assets/programme/2026-11-20_QPI-Symposium_Programbook-draft_v09.pdf",
+      "version": "v09",
+      "pages": 53
     },
     "registration": {
       "url": "https://forms.gle/XYUY5wwuBPstPwc39",
