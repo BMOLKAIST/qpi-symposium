@@ -100,7 +100,7 @@ CURRENT = {
     ],
     "scientific_programme": [
         {"time": "08:45–09:20", "event": "Registration and poster setup", "detail": ""},
-        {"time": "09:20–09:30", "event": "Opening remarks", "detail": ""},
+        {"time": "09:20–09:30", "event": "Opening remarks", "detail": "Prof. Hon Ki Tsang (CUHK)"},
         {"time": "09:30–10:10", "event": "Nicholas Durr", "detail": "Invited talk 1 · Johns Hopkins University"},
         {"time": "10:10–10:50", "event": "Yuan Luo", "detail": "Invited talk 2 · National Taiwan University"},
         {"time": "10:50–11:10", "event": "Coffee break", "detail": ""},
@@ -117,7 +117,7 @@ CURRENT = {
         {"time": "18:00–20:45", "event": "Conference dinner", "detail": "Chung Chi College Student Canteen, 1/F South Wing"},
     ],
     "speakers_status": "confirmed",
-    "updated": "7 November 2026",
+    "updated": "13 November 2026",
     "speakers": [
         {"name": "Nicholas Durr", "affiliation": "Johns Hopkins University", "role": "Invited speaker", "photo": "nicholas-durr.jpg", "photo_source": "https://www.bme.jhu.edu/people/faculty/nicholas-durr/"},
         {"name": "Yuan Luo", "affiliation": "National Taiwan University", "role": "Invited speaker", "photo": "yuan-luo.jpg", "photo_source": "https://phrtacp.ntu.edu.tw/about/8.htm"},
@@ -132,8 +132,8 @@ CURRENT = {
     "poster_deadline": "30 October 2026, 23:59 HKT",
     "venue_room": "Ho Sin-Hang Engineering Building (SHB), Room 603",
     "programme_book": {
-        "url": "assets/programme/2026-11-20_QPI-Symposium_Programbook-draft_v09.pdf",
-        "version": "v09",
+        "url": "assets/programme/2026-11-20_QPI-Symposium_Programbook-draft_v11.pdf",
+        "version": "v11",
         "pages": 53,
     },
 

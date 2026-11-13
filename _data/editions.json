@@ -37,7 +37,7 @@
       {
         "time": "09:20–09:30",
         "event": "Opening remarks",
-        "detail": ""
+        "detail": "Prof. Hon Ki Tsang (CUHK)"
       },
       {
         "time": "09:30–10:10",
@@ -111,7 +111,7 @@
       }
     ],
     "speakers_status": "confirmed",
-    "updated": "7 November 2026",
+    "updated": "13 November 2026",
     "speakers": [
       {
         "name": "Nicholas Durr",
@@ -169,8 +169,8 @@
     "poster_deadline": "30 October 2026, 23:59 HKT",
     "venue_room": "Ho Sin-Hang Engineering Building (SHB), Room 603",
     "programme_book": {
-      "url": "assets/programme/2026-11-20_QPI-Symposium_Programbook-draft_v09.pdf",
-      "version": "v09",
+      "url": "assets/programme/2026-11-20_QPI-Symposium_Programbook-draft_v11.pdf",
+      "version": "v11",
       "pages": 53
     },
     "registration": {
