@@ -169,13 +169,17 @@
     "poster_deadline": "30 October 2026, 23:59 HKT",
     "venue_room": "Ho Sin-Hang Engineering Building (SHB), Room 603",
     "programme_book": {
-      "url": "assets/programme/2026-11-20_QPI-Symposium_Programbook-draft_v12.pdf",
+      "url": "assets/programme/2026-11-20_QPI-Symposium_Programbook-draft_v12.pdf?rev=2",
       "version": "v12",
       "pages": 53
     },
     "organizer_logo": {
       "name": "SNU-Caltech Center for Innovative Semiconductor Metrology and Inspection",
       "file": "snu-caltech-center.svg"
+    },
+    "sponsor_logo": {
+      "name": "BayJayRay (BJR)",
+      "file": "bayjayray.png"
     },
     "registration": {
       "url": "https://forms.gle/XYUY5wwuBPstPwc39",

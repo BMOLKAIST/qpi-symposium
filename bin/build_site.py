@@ -90,13 +90,20 @@ def topbar(root, here):
 </header>"""
 
 
-def footer(root, series, organizer_logo=None):
+def footer(root, series, organizer_logo=None, sponsor_logo=None):
     organizer_markup = ""
     if organizer_logo:
         organizer_markup = f"""
       <div class="partner-logos organizer-logo">
         <img src="{root}assets/img/partners/{e(organizer_logo['file'])}" alt="{e(organizer_logo['name'])}">
       </div>"""
+    sponsor_markup = ""
+    if sponsor_logo:
+        sponsor_markup = f"""
+        <span class="partner-logo sponsor-logo-on-white">
+          <img src="{root}assets/img/partners/{e(sponsor_logo['file'])}" alt="{e(sponsor_logo['name'])}">
+        </span>"""
+    sponsor_heading = "Sponsors" if sponsor_logo else "Sponsor"
     return f"""
 <footer>
   <div class="wrap">
@@ -122,11 +129,11 @@ def footer(root, series, organizer_logo=None):
       </div>{organizer_markup}
     </div>
     <div class="footer-partners sponsor-partners">
-      <h2>Sponsor</h2>
+      <h2>{sponsor_heading}</h2>
       <div class="partner-logos sponsor-logo">
         <a class="partner-logo" href="https://www.tomocube.com/" aria-label="Tomocube">
           <img src="{root}assets/img/partners/tomocube.png" alt="Tomocube">
-        </a>
+        </a>{sponsor_markup}
       </div>
     </div>
     <p>Earlier editions were announced on the <a href="https://bmokaist.wordpress.com/webinar/">previous events page</a>. This site is now the current record.</p>
@@ -327,7 +334,7 @@ def build_index(data):
     </div>
   </div>
 </section>
-{footer("", series, cur.get("organizer_logo"))}"""
+{footer("", series, cur.get("organizer_logo"), cur.get("sponsor_logo"))}"""
 
 
 def build_past(data):
