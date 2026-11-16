@@ -497,6 +497,16 @@ footer p {
   max-width: min(13rem, 40vw);
 }
 
+.organizer-logo {
+  margin-top: 1.5rem;
+}
+
+.organizer-logo img {
+  display: block;
+  height: auto;
+  width: min(15rem, 100%);
+}
+
 .partner-name {
   color: var(--text-dim);
   font-size: 0.9rem;

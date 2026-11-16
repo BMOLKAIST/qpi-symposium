@@ -90,7 +90,13 @@ def topbar(root, here):
 </header>"""
 
 
-def footer(root, series):
+def footer(root, series, organizer_logo=None):
+    organizer_markup = ""
+    if organizer_logo:
+        organizer_markup = f"""
+      <div class="partner-logos organizer-logo">
+        <img src="{root}assets/img/partners/{e(organizer_logo['file'])}" alt="{e(organizer_logo['name'])}">
+      </div>"""
     return f"""
 <footer>
   <div class="wrap">
@@ -113,7 +119,7 @@ def footer(root, series):
           <img src="{root}assets/img/partners/ieee-photonics-society.png" alt="IEEE Photonics Society">
         </a>
         <span class="partner-name">Hong Kong Chapter</span>
-      </div>
+      </div>{organizer_markup}
     </div>
     <div class="footer-partners sponsor-partners">
       <h2>Sponsor</h2>
@@ -321,7 +327,7 @@ def build_index(data):
     </div>
   </div>
 </section>
-{footer("", series)}"""
+{footer("", series, cur.get("organizer_logo"))}"""
 
 
 def build_past(data):

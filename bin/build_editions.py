@@ -117,7 +117,7 @@ CURRENT = {
         {"time": "18:00–20:45", "event": "Conference dinner", "detail": "Chung Chi College Student Canteen, 1/F South Wing"},
     ],
     "speakers_status": "confirmed",
-    "updated": "13 November 2026",
+    "updated": "16 November 2026",
     "speakers": [
         {"name": "Nicholas Durr", "affiliation": "Johns Hopkins University", "role": "Invited speaker", "photo": "nicholas-durr.jpg", "photo_source": "https://www.bme.jhu.edu/people/faculty/nicholas-durr/"},
         {"name": "Yuan Luo", "affiliation": "National Taiwan University", "role": "Invited speaker", "photo": "yuan-luo.jpg", "photo_source": "https://phrtacp.ntu.edu.tw/about/8.htm"},
@@ -132,9 +132,13 @@ CURRENT = {
     "poster_deadline": "30 October 2026, 23:59 HKT",
     "venue_room": "Ho Sin-Hang Engineering Building (SHB), Room 603",
     "programme_book": {
-        "url": "assets/programme/2026-11-20_QPI-Symposium_Programbook-draft_v11.pdf",
-        "version": "v11",
+        "url": "assets/programme/2026-11-20_QPI-Symposium_Programbook-draft_v12.pdf",
+        "version": "v12",
         "pages": 53,
+    },
+    "organizer_logo": {
+        "name": "SNU-Caltech Center for Innovative Semiconductor Metrology and Inspection",
+        "file": "snu-caltech-center.svg",
     },
 
     # Registration. Set "url" once the form exists; the button appears only then.
